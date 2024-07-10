@@ -109,7 +109,6 @@ class ToDoList extends Component {
   update = async (e) => {
     const input = e.currentTarget;
     const copyInput = input.cloneNode(true);
-    console.log(copyInput);
     const parent = input.closest(".box");
     input.remove();
 

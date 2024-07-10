@@ -3,7 +3,6 @@ import ToDoList from './components/todolist';
 import Post from './components/onepost';
 import { Routes,Route } from 'react-router-dom';
 class App extends Component {
-  state = {  } 
   render() { 
     return (
       <Routes>
