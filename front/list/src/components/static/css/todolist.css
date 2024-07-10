@@ -1,0 +1,27 @@
+.titel{
+    font-size: larger;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.box{
+    border: 1px solid #999;
+    padding: 2rem;
+    border-top-left-radius: 10px;
+
+}
+
+.display_none{
+    display: none;
+}
+.display_block{
+    display: block;
+}
+.error{
+    background-color: rgba(255, 0, 0, 0.315);
+    list-style: none;
+}
+
+input[type="checkbox"]{
+    vertical-align: middle;
+}
