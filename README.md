@@ -27,6 +27,8 @@ python -m venv venv
 
 
 pip install -r requirements.txt
+
+
 فایل list را که در قسمت backend گیت‌هاب وجود دارد اضافه کنید.
 
 
