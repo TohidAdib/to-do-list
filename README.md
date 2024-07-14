@@ -49,6 +49,8 @@ cd ../frontend
 
 
 create-react-app list
+
+
 cd list
 
 
@@ -57,6 +59,8 @@ cd list
 
 
 npm install bootstrap axios react-router-dom yup
+
+
 فایل src که در گیت‌هاب قرار دارد را جایگزین کنید.
 
 
