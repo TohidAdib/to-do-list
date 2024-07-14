@@ -5,7 +5,7 @@
 همچنین برای ری اکت نیز صدق میکند و باید در پورت 3000اجرا شود
 
 
-در قسمت بکند دستورات زیر رو نوبت به نوبت وارد کنید:
+در قسمت بکند ابتدا requirements.txt را قرا دهید بعد دستورات زیر رو نوبت به نوبت وارد کنید:
 python -m venv venv
 .\venv\scripts\activate
 pip install -r requirements.txt
