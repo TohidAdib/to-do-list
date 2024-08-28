@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  backend:
+    build: 
+      context: "./backend"
+      dockerfile: Dockerfile
+    container_name: todolist-backend
+    ports:
+      - "8080:8080"
+    networks:
+      - todolist-net
+    stdin_open: true
+    tty: true
+  front:
+    build: 
+      context: ./front/list
+      dockerfile: Dockerfile
+    container_name: todolist-front
+    ports:
+      - "3000:3000"
+    networks:
+      - todolist-net
+    depends_on:
+      - backend
+networks:
+  todolist-net:
